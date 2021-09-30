@@ -4,28 +4,16 @@ const baseUrl = "http://nowaunoweb.azurewebsites.net/Content/Cards/";
 
 document.getElementsByTagName("button")[0].addEventListener("click", function() {
     
-    const numberInput = document.getElementById("number");
-    const colorInput = 'x';
-        switch(document.getElementById("color")) {
-        case 'Red':
-            colorInput = 'r';
-            break;
-        case 'Yellow':
-            colorInput = 'y';
-            break;
-        case 'Green':
-            colorInput = 'g';
-            break;
-        case 'Blue':
-            colorInput = 'b';
-            break;
-        default:
-            alert('Please enter Red, Yellow, Green or Blue!')
-            break;
-        }   
-    
-    const card = `${colorInput.value}${numberInput.value}`
-    
+    const color = document.getElementById("color");
+    const number = document.getElementById("number");
+
+    const li = document.createElement("li");
+    const img = document.createElement("img");
+
+    const createConstruct = document.querySelector("#cards ul")
+        .appendChild(li)
+        .appendChild(img);
+    img.src = `${baseUrl}${color.value.slice(0,1).toLowerCase()}${Number(number.value)}.png`;
 });
 
 img.src='${baseUrl}${card}.png'
