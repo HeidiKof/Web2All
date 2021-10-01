@@ -38,7 +38,17 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
 function convertNumber(cardValue){
     if (cardValue < 10)
         return cardValue;
-    switch()
+    switch(cardValue) {
+        case 11:
+            result = "d2"
+            break;
+        case 12:
+            result = "r"
+            break;
+        case 13:
+            result = "s"
+            break;
+    }
 }
 
 

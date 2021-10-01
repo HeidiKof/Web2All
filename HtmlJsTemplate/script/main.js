@@ -19,6 +19,20 @@ inputText.addEventListener('keyup', function (event) {
    }
 });
 
+const list = document.querySelector("#charList");
+list.addEventListener("mouseover", highlightChar);
+list.addEventListener("mouseout", highlightChar);
+
+function highlightChar(e) {
+    console.log(event.target);
+    let c = e.target.innerText;
+    for (let el of e.target.parentElement.children) {
+        if (el.innerText === c) {
+            el.classList.toggle("highlight");
+        }
+    };
+}
+
 function splitText(text) {
     let i = 0;
     text.split('').forEach(c => {
@@ -33,3 +47,4 @@ function splitText(text) {
         i++;
     });
 }
+
