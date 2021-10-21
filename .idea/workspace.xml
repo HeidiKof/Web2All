@@ -33,7 +33,7 @@
       <workItem from="1632983064675" duration="15772000" />
       <workItem from="1633070481458" duration="4425000" />
       <workItem from="1633587824359" duration="596000" />
-      <workItem from="1634813207988" duration="1393000" />
+      <workItem from="1634813207988" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Sept 30 class">
       <created>1633007291564</created>
@@ -42,7 +42,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633007291564</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Okt 21 Class - bootstrap stuff">
+      <created>1634818186074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634818186074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -50,17 +57,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sept 30 class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sept 30 class" />
+    <MESSAGE value="Okt 21 Class - bootstrap stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Okt 21 Class - bootstrap stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634813866807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="494" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1634813866807" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1633007290921">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1634818185192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1633007290921" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1634818185192" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1632983104686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
