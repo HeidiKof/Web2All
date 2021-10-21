@@ -1,0 +1,26 @@
+input {
+	margin:15px 0;
+	padding: 15px;
+	border: 2px dotted black;
+	border-radius: 15px;
+	font-size: larger;
+	color: blue;
+	outline: none;
+}
+
+input.highlight{
+	border: 2px solid red;
+}
+
+#charList span{
+	font-family: "consolas";
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+}
+
+#charList span.highlight{
+	background-color:red;
+	opacity: 0.7;
+}
